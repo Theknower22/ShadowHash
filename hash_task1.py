@@ -8,20 +8,20 @@ def detect_hash_type(hash_string):
 
     # validate hex characters only
     if not re.fullmatch(r"[a-f0-9]+", hash_string):
-        return "❌ Invalid input: Hash must contain only hexadecimal characters."
+        return "Invalid input: Hash must contain only hexadecimal characters."
 
     length = len(hash_string)
 
     if length == 32:
-        return "✅ Detected Hash Type: MD5"
+        return "Detected Hash Type: MD5"
     elif length == 40:
-        return "✅ Detected Hash Type: SHA1"
+        return "Detected Hash Type: SHA1"
     elif length == 64:
-        return "✅ Detected Hash Type: SHA256"
+        return "Detected Hash Type: SHA256"
     elif length == 96:
-        return "✅ Detected Hash Type: SHA384"
+        return "Detected Hash Type: SHA384"
     elif length == 128:
-        return "✅ Detected Hash Type: SHA512"
+        return "Detected Hash Type: SHA512"
     else:
         return f"❓ Unknown hash type (length: {length})"
 
@@ -46,7 +46,7 @@ def menu():
         print("Goodbye!")
         exit()
     else:
-        print("❌ Invalid choice")
+        print("Invalid choice")
 
 if __name__ == "__main__":
     # CLI mode

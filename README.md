@@ -1,4 +1,4 @@
-# eth-hacker-hash-detector-theknower
+#Detecting the tyoe of hash
 
 # Hash Type Detector & MD5 Generator
 

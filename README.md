@@ -1,4 +1,4 @@
-#Detecting the tyoe of hash
+#Detecting the type of hash
 
 # Hash Type Detector & MD5 Generator
 
